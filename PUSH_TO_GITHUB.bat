@@ -7,14 +7,13 @@ echo   Target: https://github.com/sudharshanaa1417-lab/AGRICARE_SHANA.git
 echo ========================================================
 echo.
 
+git add .
+git commit -m "Fix Vercel build: explicitly define npm install and npx vite build"
 git push -u origin main
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
-    echo ----------------------------------------------------
-    echo If push was rejected because of a README on GitHub,
-    echo attempting force push to overwrite...
-    echo ----------------------------------------------------
+    echo Attempting force push...
     git push -u origin main --force
 )
 
