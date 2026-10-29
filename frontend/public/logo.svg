@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="gradLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <linearGradient id="gradSun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <!-- Sun / Solar symbol -->
+  <circle cx="50" cy="26" r="8" fill="url(#gradSun)" />
+  <!-- Soil Mound -->
+  <path d="M22 74 Q50 62 78 74 L78 80 Q50 72 22 80 Z" fill="#78350f" opacity="0.85"/>
+  <!-- Central Stem -->
+  <path d="M50 68 Q50 48 50 36" stroke="#15803d" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Left Leaf -->
+  <path d="M50 52 C35 50 26 40 30 30 C42 30 48 42 50 52 Z" fill="url(#gradLeaf)"/>
+  <!-- Right Leaf -->
+  <path d="M50 44 C65 42 74 32 70 22 C58 22 52 34 50 44 Z" fill="url(#gradLeaf)"/>
+  <!-- Tech Nodes -->
+  <circle cx="30" cy="30" r="2.5" fill="#22c55e"/>
+  <circle cx="70" cy="22" r="2.5" fill="#22c55e"/>
+  <circle cx="50" cy="68" r="3" fill="#15803d"/>
+</svg>

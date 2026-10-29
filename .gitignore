@@ -1,0 +1,42 @@
+# Node.js & Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+
+# Python & FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+agricare.db
+*.sqlite3
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arduino
+*.hex
+*.elf
